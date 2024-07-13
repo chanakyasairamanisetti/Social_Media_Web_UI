@@ -1,0 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(researcher.ttf);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(researcher.ttf);
+    font-weight: bold;
+}
+h1 {
+    font-family: myFirstFont;
+}

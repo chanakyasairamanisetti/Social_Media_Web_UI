@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(codystar.ttf);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(codystar.ttf);
+    font-weight: bold;
+}
+h3 {
+    font-family: myFirstFont;
+}
+.wrapper {
+    width: 400px;
+    margin: 50px 35%;
+    text-align: center;
+    padding: 30px 40px;
+    border: 2px solid rgba(1, 15, 29, 0.5);
+    background: rgb(19, 18, 18);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px white;
+    border-radius: 20px;
+}
+.wrapper h3 {
+    color: white;
+    font-family: myFirstfont ;
+    font-size: 24px;
+}
+.wrapper p {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+.wrapper .inputBox {
+    position: relative;
+    height: 31px;
+    width: 100%;
+    margin: 20PX 0;
+    padding-bottom: 40px;
+
+}
+.inputBox input {
+    width: 310px;
+    height: 31px;
+    background: transparent;
+    outline: none;
+    border-radius: 50px;
+    font-size: 12px;
+    color: white;
+    padding: 20px;
+}
+.wrapper .button{
+    width: 240px;
+    height: 31px;
+    background: grey;
+    box-shadow: 0 0 5px rgba(245, 243, 243, 0.8);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    backdrop-filter: rgb(124, 111, 172) (20px);
+    border: none;
+    outline: none;
+    font-family: 'Times Roman';
+    border-radius: 40px;
+    transition: all 0.2s;
+    transform: translateY(-5px);
+}
+.wrapper .button:hover{
+    background: black;
+    color: white;
+}
+.wrapper a {
+    color: azure;
+    text-decoration: none;
+}
